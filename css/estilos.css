@@ -29,9 +29,9 @@ h1{
 header{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 3rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    margin-top: 4rem;
    
 }
 ul{
@@ -71,6 +71,13 @@ main .hero__section{
     align-items: center;
     margin-top: 8rem;     
     }
+
+
+.form__pasta:hover{
+    color: -webkit-link rgb(9, 230, 20);
+    cursor: pointer;
+    text-decoration: none;
+}
     
     
 .footer div{
