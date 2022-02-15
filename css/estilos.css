@@ -217,6 +217,7 @@ main .hero__section{
                          "img4 img4 img4 img4 img5 img5 img5 img5";
 }
 
+
 .img1{
     grid-area: img1;    
 }
@@ -236,6 +237,36 @@ main .hero__section{
 .img5{
     grid-area: img5;    
 }
+
+.rotate-in-center {
+	-webkit-animation: rotate-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4 both;
+	        animation: rotate-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4 both;
+}
+
+@-webkit-keyframes rotate-in-center {
+    0% {
+      -webkit-transform: rotate(-360deg);
+              transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  @keyframes rotate-in-center {
+    0% {
+      -webkit-transform: rotate(-360deg);
+              transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      opacity: 1;
+    }
+  }
 
 .subtitutlo__pasta{
     display: flex;
