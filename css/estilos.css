@@ -30,7 +30,7 @@ header{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 3rem;
     display: grid;
-    grid-template-columns: 3fr 4fr;
+    grid-template-columns: 4fr 4fr;
     margin-top: 4rem;
    
 }
@@ -43,7 +43,7 @@ ul{
     flex-wrap: wrap;
     flex-direction: row;
     align-content: space-between;
-    border: black solid 1px;
+  
 }
 
 li a{
@@ -61,6 +61,13 @@ li{
 img {
     width: 250px;
     margin: 10px;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   
@@ -190,7 +197,8 @@ main .hero__section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr;
-    grid-template-areas: none;
+    justify-items: center;
+    align-items: center;
     
 }
 
@@ -205,7 +213,9 @@ main .hero__section{
     display: grid; 
     grid-template-rows: repeat(9 auto);
     grid-template-columns: repeat(8 auto);
-    gap: 1rem;  
+    gap: 1rem; 
+    justify-content: center;
+    align-items: center; 
     grid-template-areas: "img1 img1 img1 img1 img2 img2 img2 img2"
                          "img1 img1 img1 img1 img2 img2 img2 img2"
                          "img1 img1 img1 img1 img2 img2 img2 img2"
