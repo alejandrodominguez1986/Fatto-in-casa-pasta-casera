@@ -76,7 +76,7 @@ main .hero__section{
     margin-top: 8rem;
     justify-content: space-around;
     align-items: center;
-    margin-top: 8rem;     
+  
     }
 
 
@@ -191,7 +191,10 @@ main .hero__section{
 .subtitulo__fettuccini{
     background-color: white;
     border: solid black 3px;
+    
 }
+
+
 
 .div_subtitulo_Fettuccini{
     display: flex;
@@ -231,13 +234,11 @@ main .hero__section{
   
 
 .div_subtitulo_Raviolon{
-    
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
-    justify-items: center;
-    align-items: center;
-    
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-rows: 2 fr 2fr ;
+    grid-gap: 6rem;
+    width: 100rem;
 }
 
 .div_subtitulo_Sorrentinos{
@@ -363,13 +364,19 @@ main .hero__section{
   
 }
 
-.Promo{
+.Promo {
     font-size: 5rem;
     color: #e9e90e;
     font-style: oblique;
-    
 }
-
+.Promo__1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-style:oblique;
+    text-decoration: underline;
+    font-weight: 600;
+}
 
 
 /*media queries*/
@@ -396,6 +403,22 @@ main .hero__section{
         align-items: center;           
     }
 
+    .subtitulo__fettuccini{
+        box-sizing: border-box;
+        border: solid #000103 6px;
+        padding: 5px;
+        
+    }
+
+    .div_subtitulo_Sorrentinos {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+        margin: 0%;
+    }
+
+
     .form__whatsapp{
         display: flex;
         flex-direction: row;
@@ -408,25 +431,22 @@ main .hero__section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-       
+        flex-wrap: nowrap; 
       }
 
       .footer div{
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         flex-wrap: nowrap;
-        justify-content:flex-end;
-        align-items: flex-end;}
+        justify-content: flex-end;
+      }
 
 }
 
 @media screen and (max-width: 425px){
-
-    
-
     header{
-         margin: 5rem;
+         display: grid;
+         grid-template-columns: min-content;
         
     }
 
@@ -474,10 +494,9 @@ main .hero__section{
      .div_subtitulo_Raviolon{
     
         display: grid;
-        grid-template-columns: 1fr ;
-       justify-items: center;
-       align-items: center;
-
+        grid-template-columns: 1fr;
+        
+       
      }
 
      .form__whatsapp{
@@ -494,8 +513,4 @@ main .hero__section{
         justify-content:center;
         align-items: center;
     }
-        
-    
-   
-    
 }
