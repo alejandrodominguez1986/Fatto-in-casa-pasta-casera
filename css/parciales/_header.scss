@@ -3,16 +3,22 @@
 .header{
     display: flex;
     justify-content: space-between;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     margin-top: 2.5rem;
-
    
 }
 
 .header__titulo{
-    font-size: 5rem;
-
-    
+    font-size: 5.5rem;
+    color: white;
 
 }
+
+.header__navbarra{
+    font-size: 1.5+rem;
+    padding: 0rem;
+    
+    
+      
+} 
 

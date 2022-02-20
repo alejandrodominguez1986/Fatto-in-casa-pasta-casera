@@ -14,9 +14,9 @@ img {
   margin: 10px;
 }
 
-.subtitutlo__pasta {
-  font-size: 9rem;
-  font-family: 'Staatliches', cursive;
+.h2__pasta {
+  font-size: 4rem;
+  font-family: 'Francois One', sans-serif;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,6 +24,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 6rem;
 }
 
 .btn {
@@ -52,12 +53,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Cinzel Decorative', cursive;
   margin-top: 2.5rem;
 }
 
 .header__titulo {
-  font-size: 5rem;
+  font-size: 5.5rem;
+  color: white;
+}
+
+.header__navbarra {
+  font-size: 1.5rem;
+  padding: 0rem;
 }
 
 main {
@@ -223,8 +230,9 @@ main .hero__izquierdo {
       grid-template-columns: 2fr 2fr 2fr;
   -ms-grid-rows: 2 fr 2fr;
       grid-template-rows: 2 fr 2fr;
-  grid-gap: 6rem;
+  grid-gap: 10rem;
   width: 100rem;
+  margin-top: 3rem;
 }
 
 .div_subtitulo_Sorrentinos {
