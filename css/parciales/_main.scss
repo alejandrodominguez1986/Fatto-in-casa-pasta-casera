@@ -1,0 +1,31 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    main .hero__section{
+        display: flex;
+        margin-top: 8rem;
+        justify-content: space-around;
+        align-items: center;
+      
+        }
+    
+      
+        .hero__derecho{
+          display: flex;
+          width: 100%;
+      
+      }
+      
+      .hero__izquierdo {
+          font-size: 2rem;
+          background-color:#e8e8e4;
+          border: solid;
+          border-style: double;
+          margin: 5rem;
+          display: flex;
+          flex-direction: column;
+          justify-self: center;
+      }
+      
+}

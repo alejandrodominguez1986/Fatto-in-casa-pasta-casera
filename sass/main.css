@@ -9,11 +9,563 @@ html {
   font-size: 62.5%;
 }
 
+img {
+  width: 250px;
+  margin: 10px;
+}
+
+.subtitutlo__pasta {
+  font-size: 9rem;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn {
+  font-size: 3.5rem;
+  border-width: 0.5rem;
+  border: black solid;
+}
+
+.subtitulo__fettuccini {
+  background-color: white;
+  border: solid black 3px;
+}
+
 body {
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 2.5rem;
+}
+
+.header__titulo {
+  font-size: 5rem;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+main main .hero__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .hero__derecho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main .hero__izquierdo {
+  font-size: 2rem;
+  background-color: #e8e8e4;
+  border: solid;
+  border-style: double;
+  margin: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+}
+
+.footer div {
+  font-family: 'Rubik Mono One', sans-serif;
+  width: 10rem;
+  height: 15rem;
+  margin: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__red__social {
+  font-size: 3rem;
+  text-decoration: none;
+  list-style: none;
+  margin: 2rem;
+  color: aliceblue;
+}
+
+.subtitutlo__pasta {
+  font-size: 9rem;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whatsapp__pasta {
+  border: 4px solid black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px;
+  padding: 20px;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.whatsapp__caja {
+  margin: 15px 20px;
+  padding: 20px;
+  border: solis black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.whatsapp__subtitulo {
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.div_subtitulo_Fettuccini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tilt-in-top-1 {
+  -webkit-animation: tilt-in-top-1 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 2;
+  animation: tilt-in-top-1 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 2;
+}
+
+@-webkit-keyframes tilt-in-top-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes tilt-in-top-1 {
+  0% {
+    -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+.div_subtitulo_Raviolon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr;
+  -ms-grid-rows: 2 fr 2fr;
+      grid-template-rows: 2 fr 2fr;
+  grid-gap: 6rem;
+  width: 100rem;
+}
+
+.div_subtitulo_Sorrentinos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.puff-in-center {
+  -webkit-animation: puff-in-center 4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: puff-in-center 4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.div_subtitulo_noquis {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[9];
+      grid-template-rows: repeat(9 auto);
+  -ms-grid-columns: (auto)[8];
+      grid-template-columns: repeat(8 auto);
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+      grid-template-areas: "img1 img1 img1 img1 img2 img2 img2 img2" "img1 img1 img1 img1 img2 img2 img2 img2" "img1 img1 img1 img1 img2 img2 img2 img2" ". .  img3 img3 img3 img3 . .  " ". .  img3 img3 img3 img3 . .  " ". .  img3 img3 img3 img3 . .  " "img4 img4 img4 img4 img5 img5 img5 img5" "img4 img4 img4 img4 img5 img5 img5 img5" "img4 img4 img4 img4 img5 img5 img5 img5";
+}
+
+.img1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: img1;
+}
+
+.img2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: img2;
+}
+
+.img3 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 4;
+  grid-area: img3;
+}
+
+.img4 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: img4;
+}
+
+.img5 {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: img5;
+}
+
+.rotate-in-center {
+  -webkit-animation: rotate-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4 both;
+  animation: rotate-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4 both;
+}
+
+@-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.ul__promos {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 10rem;
+}
+
+.Promo {
+  font-size: 5rem;
+  color: #e9e90e;
+  font-style: oblique;
+}
+
+.Promo__1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 10rem;
+  }
+  main .hero__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem;
+    width: 100%;
+  }
+  .div_subtitulo_Fettuccini {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .subtitulo__fettuccini {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: solid #000103 6px;
+    padding: 5px;
+  }
+  .div_subtitulo_Sorrentinos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0%;
+  }
+  .form__whatsapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ul__promos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: min-content;
+        grid-template-columns: -webkit-min-content;
+        grid-template-columns: min-content;
+  }
+  .hero__derecho {
+    width: 75%;
+  }
+  .subtitutlo__pasta {
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  .div_subtitulo_noquis {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: ()[5auto];
+        grid-template-rows: repeat(5auto);
+    gap: 1rem;
+        grid-template-areas: "img1" "img2" "img3" "img4" "img5";
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .img1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: img1;
+  }
+  .img2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: img2;
+  }
+  .img3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img3;
+  }
+  .img4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: img4;
+  }
+  .img5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: img5;
+  }
+  .div_subtitulo_Raviolon {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .form__whatsapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -70,15 +70,7 @@ main .hero__section{
     align-items: center;
   
     }
-
-
-.form__pasta:hover{
-    color: -webkit-link rgb(9, 230, 20);
-    cursor: pointer;
-    text-decoration: none;
-}
-    
-    
+        
 .footer div{
         font-family: 'Rubik Mono One', sans-serif;
         

@@ -1,0 +1,71 @@
+@media screen and (max-width: 425px){
+    header{
+         display: grid;
+         grid-template-columns: min-content;
+        
+    }
+
+    .hero__derecho{
+       width: 75%;
+    }
+    
+   
+
+    .subtitutlo__pasta{
+        font-size: 7rem;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+    .div_subtitulo_noquis{
+        display: grid; 
+        grid-template-rows: repeat(5auto);
+        gap: 1rem;  
+        grid-template-areas: "img1" "img2" "img3" "img4" "img5";
+        height: fit-content;
+    }
+    
+    .img1{
+        grid-area: img1;    
+    }
+    
+    .img2{
+        grid-area: img2;    
+    }
+    
+    .img3{
+        grid-area: img3;    
+    }
+    
+    .img4{
+        grid-area: img4;    
+    }
+    
+    .img5{
+        grid-area: img5;    
+    }
+    
+
+     .div_subtitulo_Raviolon{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+     }
+
+     .form__whatsapp{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+    }
+      
+      
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+}
