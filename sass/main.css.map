@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AACD,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;CACnB;;ACPD,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,qBAAqB;EACvC,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;EAC3B,qBAAqB,EAAE,KAAK;CAC/B",
+    "sources": [
+        "main.scss",
+        "../css/parciales/_reset.scss",
+        "../css/parciales/_body.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
