@@ -1,31 +1,25 @@
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    main .hero__section{
-        display: flex;
-        margin-top: 8rem;
-        justify-content: space-around;
-        align-items: center;
-      
-        }
-    
-      
-        .hero__derecho{
-          display: flex;
-          width: 100%;
-      
-      }
-      
-      .hero__izquierdo {
-          font-size: 2rem;
-          background-color:#e8e8e4;
-          border: solid;
-          border-style: double;
-          margin: 5rem;
-          display: flex;
-          flex-direction: column;
-          justify-self: center;
-      }
-      
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+
+
+
+
+.div__heros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15rem;
 }
+
+.hero__izquierdo{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    font-family: 'Koulen', cursive;
+    text-align:center;
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+
+

@@ -1,12 +1,27 @@
 @media screen and (max-width: 425px){
-    header{
-         display: grid;
-         grid-template-columns: min-content;
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        
         
     }
 
+    .div__heros{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+
+
     .hero__derecho{
-       width: 75%;
+        display: flex;
+        justify-content: center;
     }
     
    

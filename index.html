@@ -14,56 +14,62 @@
 </head>
 <body>
     <header class="header container">
-        <h1 class=" header__titulo text-center text-uppercase ">Fatto in casa</h1>
-        <nav class="header__nav navbar navbar-expand-lg navbar-light bg-light">
-            <div class="header__div container-fluid">
-              <div>
-                      <a class="header__navbarra navbar-brand text-uppercase" href="#">Inicio</a>
-              </div>
-                <li class="header__navbarra nav-link dropdown-toggle text-center text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menu 
-                </li>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item text-uppercase" href="./Menu/fettuccini.html">Fettuccini</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-uppercase" href="./Menu/raviolon.html">Raviolon</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-uppercase" href="./Menu/sorrentinos.html">Sorrentiunos</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-uppercase" href="./Menu/ñoquis.html">Ñoquis</a></li>
-                </ul>
+      <h1 class=" header__titulo text-center text-uppercase ">Fatto in casa</h1>
+      <nav class="header__nav navbar navbar-expand-lg navbar-light bg-light">
+        <div class="header__div container-fluid">
+          <div>
+            <a class="header__navbarra navbar-brand text-uppercase" href="#">Inicio</a>
+          </div>
+          <li class="header__navbarra dropdown-toggle  text-center text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu 
+          </li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class=" header__navbarra__pastas dropdown-item text-uppercase" href="./Menu/fettuccini.html">Fettuccini</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class=" header__navbarra__pastas dropdown-item text-uppercase" href="./Menu/raviolon.html">Raviolon</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class=" header__navbarra__pastas dropdown-item text-uppercase" href="./Menu/sorrentinos.html">Sorrentiunos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class=" header__navbarra__pastas dropdown-item text-uppercase" href="./Menu/ñoquis.html">Ñoquis</a></li>
+          </ul>
+        </li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="header__navbarra nav-item">
+              <a class="nav-link text-uppercase" href="./pedir/pedir.html">Pedidos por whatsapp</a> 
             </li>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="header__navbarranav-item">
-                        <a class="nav-link text-uppercase" href="./pedir/pedir.html">Pedidos por whatsapp</a> 
-                    </li>
-                     <li class="header__navbarranav-item">
-                        <a class="nav-link text-uppercase" href="./Promo/promos.html">Las promos</a>
-                    </li>
-                </ul>  
+            <li class="header__navbarra nav-item">
+              <a class="nav-link text-uppercase" href="./Promo/promos.html">Promociones</a>
+            </li>
+          </ul>  
               </div>
             </div>
           </nav>
        </header>
-    <main>
-        <section class="hero__section">
-            <div class="hero__izquierdo">
-                <h2>Delivery</h2>
-                <p>Martes, jueves y sábados</p>
-                <p>10 a 12.30 hs.</p>
-                <p>Take Away</p>
-                <p> Lunes 18.30 a 21.30 hs.</p>
-                <p>Martes a sábados</p>
-                <p>11 a 13 y 18.30 a 21.30 hs.</p>
-                <p>PEDIDOS CON 6 HS DE ANTICIPACIÓN </p>
-            </div>
-            
-            <div class="hero__derecho">
-                <iframe width="550" height="300" src="https://www.youtube.com/embed/ZWbIHTpqX8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+       
+    <main class="main_herosection ">
+        <section class="hero__section container-fluid">
+           <div class="div__heros">
+             <div class="hero__izquierdo col-4">
+                  <h2>Delivery</h2>
+                  <p>Martes, jueves y sábados</p>
+                  <p>10 a 12.30 hs.</p>
+                  <p>Take Away</p>
+                  <p> Lunes 18.30 a 21.30 hs.</p>
+                  <p>Martes a sábados</p>
+                  <p>11 a 13 y 18.30 a 21.30 hs.</p>
+                  <p>PEDIDOS CON 6 HS DE ANTICIPACIÓN </p>
+              </div>
+              <div class="hero__derecho col-6 ">
+                  <iframe width="550" height="300" src="https://www.youtube.com/embed/ZWbIHTpqX8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+           </div> 
         </section>
     </main>
+
     <footer class="footer">
         <div>
              <a href="https://www.instagram.com/fattoincasamad/?hl=es-la" class="footer__red__social">Instagram</a>

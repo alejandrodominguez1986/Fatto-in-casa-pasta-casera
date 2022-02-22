@@ -1,24 +1,29 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 .header{
     display: flex;
     justify-content: space-between;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Koulen', cursive;
     margin-top: 2.5rem;
    
 }
 
 .header__titulo{
-    font-size: 5.5rem;
-    color: white;
-
+    font-size: 9rem;
+    color: rgba(236, 236, 230, 0.938);
+    font-family: 'Passion One', cursive;
 }
 
 .header__navbarra{
-    font-size: 1.5+rem;
+    display: flex;
+
+    font-size: 3rem;
     padding: 0rem;
-    
-    
-      
+  
 } 
+
+.header__navbarra__pastas{
+    font-size: 2rem;
+}
 
