@@ -6,27 +6,26 @@
     justify-content: space-between;
     font-family: 'Koulen', cursive;
     margin-top: 2.5rem;
+    &__titulo{
+        font-size: 9rem;
+        color: rgba(236, 236, 230, 0.938);
+        font-family: 'Passion One', cursive;
+    }
+    &__navbarra{
+        display: flex;
+    
+        font-size: 3rem;
+        padding: 0rem;
+      
+    } 
+    &__navbarra__pastas{
+        font-size: 2rem;
+    }
+    &__separador{
+        display: flex;
+    }
    
 }
 
-.header__titulo{
-    font-size: 9rem;
-    color: rgba(236, 236, 230, 0.938);
-    font-family: 'Passion One', cursive;
-}
 
-.header__navbarra{
-    display: flex;
 
-    font-size: 3rem;
-    padding: 0rem;
-  
-} 
-
-.header__navbarra__pastas{
-    font-size: 2rem;
-}
-
-.header__separador{
-    display: flex;
-}

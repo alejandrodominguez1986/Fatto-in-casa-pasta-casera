@@ -2,20 +2,20 @@
     display: grid;
     grid-auto-flow:column;
     margin-top: 10rem;
+    .Promo {
+        font-size: 5rem;
+        color: #e9e90e;
+        font-style: oblique;
+    }
+    .Promo__1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3rem;
+        color: #fff;
+        font-style:oblique;
+        text-decoration: underline;
+        font-weight: 600;
+    }
     
-  }
-  
-  .Promo {
-      font-size: 5rem;
-      color: #e9e90e;
-      font-style: oblique;
-  }
-  .Promo__1 {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 3rem;
-      color: #fff;
-      font-style:oblique;
-      text-decoration: underline;
-      font-weight: 600;
+    
   }
   

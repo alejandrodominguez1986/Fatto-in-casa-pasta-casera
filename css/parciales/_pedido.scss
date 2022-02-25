@@ -1,12 +1,3 @@
-.subtitutlo__pasta{
-    font-size: 9rem;
-    font-family: 'Staatliches', cursive;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-
 .whatsapp__pasta{
     border: 4px solid black;
     width: fit-content;
@@ -19,16 +10,12 @@
     align-items: baseline;
     align-content: center;
     background-color: lightgoldenrodyellow;
+    &__caja{
+        margin: 15px 20px;
+        padding: 20px;
+        border: solis black;
+        display: flex;
+    }
 }
 
-.whatsapp__caja{
-    margin: 15px 20px;
-    padding: 20px;
-    border: solis black;
-    display: flex;
-}
 
-.whatsapp__subtitulo{
-    font-size: 4rem;
-    font-style: italic;
-}
