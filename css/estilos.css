@@ -44,12 +44,13 @@ body {
 
 .header {
   display: flex;
+  align-items: none;
   justify-content: space-between;
   font-family: 'Koulen', cursive;
   margin-top: 2.5rem; }
   .header__titulo {
     font-size: 9rem;
-    color: rgba(236, 236, 230, 0.938);
+    color: rgba(253, 8, 8, 0.938);
     font-family: 'Passion One', cursive; }
   .header__navbarra {
     display: flex;
@@ -62,8 +63,8 @@ body {
 
 .div__heros {
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
-  align-items: center;
   margin-top: 15rem; }
 
 .hero__izquierdo {
@@ -293,13 +294,14 @@ body {
   .ul__promos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-wrap: nowrap; }
   .footer div {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
+    align-items: none;
     justify-content: flex-end; } }
 
 @media screen and (max-width: 425px) {

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-
+@mixin movimiento ($align-items, $justify-content) {
+    align-items: $align-items;
+    justify-content: $justify-content;
+    }
 
 
 
@@ -7,8 +10,8 @@
 
 .div__heros{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include movimiento(flex-start, space-around);
+   
     margin-top: 15rem;
 }
 
