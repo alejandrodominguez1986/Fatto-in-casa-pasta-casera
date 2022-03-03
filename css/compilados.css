@@ -44,26 +44,27 @@ body {
 
 .header {
   display: flex;
+  align-items: none;
   justify-content: space-between;
   font-family: 'Koulen', cursive;
   margin-top: 2.5rem; }
-  .header .header__titulo {
+  .header__titulo {
     font-size: 9rem;
-    color: rgba(236, 236, 230, 0.938);
+    color: rgba(236, 230, 232, 0.938);
     font-family: 'Passion One', cursive; }
-  .header .header__navbarra {
+  .header__navbarra {
     display: flex;
     font-size: 3rem;
     padding: 0rem; }
-  .header .header__navbarra__pastas {
+  .header__navbarra__pastas {
     font-size: 2rem; }
-  .header .header__separador {
+  .header__separador {
     display: flex; }
 
 .div__heros {
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
-  align-items: center;
   margin-top: 15rem; }
 
 .hero__izquierdo {
@@ -78,29 +79,20 @@ body {
 .footer {
   display: grid;
   justify-content: end; }
-
-.footer div {
-  font-family: 'Rubik Mono One', sans-serif;
-  width: 10rem;
-  height: 15rem;
-  margin: 20rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.footer__red__social {
-  font-size: 7rem;
-  text-decoration: none;
-  list-style: none;
-  margin: 2rem;
-  color: white; }
-
-.subtitutlo__pasta {
-  font-size: 9rem;
-  font-family: 'Staatliches', cursive;
-  color: white;
-  display: flex;
-  justify-content: center; }
+  .footer div {
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 10rem;
+    height: 15rem;
+    margin: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .footer__red__social {
+    font-size: 7rem;
+    text-decoration: none;
+    list-style: none;
+    margin: 2rem;
+    color: white; }
 
 .whatsapp__pasta {
   border: 4px solid black;
@@ -114,16 +106,11 @@ body {
   align-items: baseline;
   align-content: center;
   background-color: lightgoldenrodyellow; }
-
-.whatsapp__caja {
-  margin: 15px 20px;
-  padding: 20px;
-  border: solis black;
-  display: flex; }
-
-.whatsapp__subtitulo {
-  font-size: 4rem;
-  font-style: italic; }
+  .whatsapp__pasta__caja {
+    margin: 15px 20px;
+    padding: 20px;
+    border: solis black;
+    display: flex; }
 
 .div_subtitulo_Fettuccini {
   display: flex;
@@ -307,13 +294,14 @@ body {
   .ul__promos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-wrap: nowrap; }
   .footer div {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
+    align-items: none;
     justify-content: flex-end; } }
 
 @media screen and (max-width: 425px) {

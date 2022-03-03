@@ -4,15 +4,15 @@
     align-items: $align-items;
     justify-content: $justify-content;
     }
-
 .header{
     display: flex;
     @include movimiento(none, space-between);
+   
     font-family: 'Koulen', cursive;
     margin-top: 2.5rem;
     &__titulo{
         font-size: 9rem;
-        color: rgba(236, 25, 25, 0.938);
+        color: rgba(236, 230, 232, 0.938);
         font-family: 'Passion One', cursive;
     }
     &__navbarra{
