@@ -289,11 +289,10 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   },
-  "scripts": { 
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss sass/main.scss css/compilados.css",
+    "build-css": "node-sass --include-path scss sass/main.scss sass/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-   
   },
   "repository": {
     "type": "git",

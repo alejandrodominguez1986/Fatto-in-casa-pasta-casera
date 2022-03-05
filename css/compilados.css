@@ -50,7 +50,7 @@ body {
   margin-top: 2.5rem; }
   .header__titulo {
     font-size: 9rem;
-    color: rgba(236, 230, 232, 0.938);
+    color: rgba(245, 8, 87, 0.938);
     font-family: 'Passion One', cursive; }
   .header__navbarra {
     display: flex;

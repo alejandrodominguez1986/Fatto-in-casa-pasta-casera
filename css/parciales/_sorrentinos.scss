@@ -1,6 +1,10 @@
+@import"../parciales/especificaciones_";
+
+
 .div_subtitulo_Sorrentinos{
     display: flex;
     justify-content: space-around;
+    @extend .subtitulo__fettuccini;
 }
 
 .puff-in-center {

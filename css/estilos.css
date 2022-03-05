@@ -50,7 +50,7 @@ body {
   margin-top: 2.5rem; }
   .header__titulo {
     font-size: 9rem;
-    color: rgba(253, 8, 8, 0.938);
+    color: rgba(236, 230, 232, 0.938);
     font-family: 'Passion One', cursive; }
   .header__navbarra {
     display: flex;
@@ -192,7 +192,15 @@ body {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  grid-template-areas: "img1 img1 img1 img1 img2 img2 img2 img2" "img1 img1 img1 img1 img2 img2 img2 img2" "img1 img1 img1 img1 img2 img2 img2 img2" ". .  img3 img3 img3 img3 . .  " ". .  img3 img3 img3 img3 . .  " ". .  img3 img3 img3 img3 . .  " "img4 img4 img4 img4 img5 img5 img5 img5" "img4 img4 img4 img4 img5 img5 img5 img5" "img4 img4 img4 img4 img5 img5 img5 img5"; }
+  grid-template-areas: "img1 img1 img1 img1 img2 img2 img2 img2"
+ "img1 img1 img1 img1 img2 img2 img2 img2"
+ "img1 img1 img1 img1 img2 img2 img2 img2"
+ ". .  img3 img3 img3 img3 . .  "
+ ". .  img3 img3 img3 img3 . .  "
+ ". .  img3 img3 img3 img3 . .  "
+ "img4 img4 img4 img4 img5 img5 img5 img5"
+ "img4 img4 img4 img4 img5 img5 img5 img5"
+ "img4 img4 img4 img4 img5 img5 img5 img5"; }
 
 .img1 {
   grid-area: img1; }
