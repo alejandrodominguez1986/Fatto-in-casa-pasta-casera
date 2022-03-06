@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ html {
   font-size: 62.5%; }
 
 img {
-  width: 250px;
+  width: 200px;
   margin: 10px; }
 
 .h2__pasta {
@@ -26,7 +27,7 @@ img {
   border-width: 0.5rem;
   border: black solid; }
 
-.subtitulo__fettuccini {
+.subtitulo__fettuccini, .img__raviolon, .div_subtitulo_Sorrentinos {
   background-color: white;
   border: solid black 3px; }
 
@@ -50,7 +51,7 @@ body {
   margin-top: 2.5rem; }
   .header__titulo {
     font-size: 9rem;
-    color: rgba(245, 8, 87, 0.938);
+    color: rgba(238, 16, 83, 0.938);
     font-family: 'Passion One', cursive; }
   .header__navbarra {
     display: flex;
@@ -94,23 +95,33 @@ body {
     margin: 2rem;
     color: white; }
 
-.whatsapp__pasta {
-  border: 4px solid black;
-  width: fit-content;
-  margin: 10px;
-  padding: 20px;
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.form {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  align-content: center;
-  background-color: lightgoldenrodyellow; }
-  .whatsapp__pasta__caja {
-    margin: 15px 20px;
+  align-items: center; }
+  .form__pasta {
+    border: 4px solid black;
+    width: fit-content;
+    margin: 10px;
     padding: 20px;
-    border: solis black;
-    display: flex; }
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: center;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Passion One', cursive; }
+  .form__titulo {
+    font-size: 3rem;
+    font-family: 'Passion One', cursive;
+    color: #e0133c; }
+  .form__select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .form__opciones {
+    color: #1e06f5;
+    font-size: 2.3rem; }
 
 .div_subtitulo_Fettuccini {
   display: flex;
@@ -140,6 +151,27 @@ body {
     transform: rotateY(0deg) translateY(0) skewY(0deg);
     opacity: 1; } }
 
+img {
+  width: 200px;
+  margin: 10px; }
+
+.h2__pasta {
+  font-size: 4rem;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem; }
+
+.btn {
+  font-size: 3.5rem;
+  border-width: 0.5rem;
+  border: black solid; }
+
+.subtitulo__fettuccini, .img__raviolon, .div_subtitulo_Sorrentinos {
+  background-color: white;
+  border: solid black 3px; }
+
 .div_subtitulo_Raviolon {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -147,6 +179,27 @@ body {
   grid-gap: 10rem;
   width: 100rem;
   margin-top: 3rem; }
+
+img {
+  width: 200px;
+  margin: 10px; }
+
+.h2__pasta {
+  font-size: 4rem;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem; }
+
+.btn {
+  font-size: 3.5rem;
+  border-width: 0.5rem;
+  border: black solid; }
+
+.subtitulo__fettuccini, .img__raviolon, .div_subtitulo_Sorrentinos {
+  background-color: white;
+  border: solid black 3px; }
 
 .div_subtitulo_Sorrentinos {
   display: flex;
@@ -185,7 +238,8 @@ body {
     opacity: 1; } }
 
 .div_subtitulo_noquis {
-  height: 100vh;
+  width: 650px;
+  height: 200px;
   display: grid;
   grid-template-rows: repeat(9 auto);
   grid-template-columns: repeat(8 auto);
@@ -244,7 +298,7 @@ body {
   .ul__promos .Promo__1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3rem;
-    color: #fff;
+    color: white;
     font-style: oblique;
     text-decoration: underline;
     font-weight: 600; }
@@ -257,7 +311,7 @@ body {
   .div_subtitulo_Fettuccini {
     flex-direction: column;
     align-items: center; }
-  .subtitulo__fettuccini {
+  .subtitulo__fettuccini, .img__raviolon, .div_subtitulo_Sorrentinos {
     box-sizing: border-box;
     border: solid #000103 6px;
     padding: 5px;
