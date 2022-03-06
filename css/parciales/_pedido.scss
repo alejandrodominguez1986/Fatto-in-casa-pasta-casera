@@ -1,21 +1,37 @@
-.whatsapp__pasta{
-    border: 4px solid black;
-    width: fit-content;
-    margin: 10px;
-    padding: 20px;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+
+.form{
     display: flex;
-    flex-direction:column ;
-    align-items: baseline;
-    align-content: center;
-    background-color: lightgoldenrodyellow;
-    &__caja{
-        margin: 15px 20px;
+    flex-direction: column;
+    align-items: center;
+    &__pasta{
+        border: 4px solid black;
+        width: fit-content;
+        margin: 10px;
         padding: 20px;
-        border: solis black;
+        font-size: 3rem;
         display: flex;
+        flex-direction:column ;
+        align-items: baseline;
+        align-content: center;
+        background-color: lightgoldenrodyellow;
+        font-family: 'Passion One', cursive;    }
+    &__titulo  {
+       font-size: 3rem;
+       font-family: 'Passion One', cursive;
+       color: rgb(224, 19, 60);
     }
+    &__select{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+   &__opciones{
+        color: rgb(30, 6, 245);
+        font-size: 2.3rem;
+    }
+   
 }
-
-

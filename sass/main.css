@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ html {
   font-size: 62.5%; }
 
 img {
-  width: 250px;
+  width: 200px;
   margin: 10px; }
 
 .h2__pasta {
@@ -94,23 +95,33 @@ body {
     margin: 2rem;
     color: white; }
 
-.whatsapp__pasta {
-  border: 4px solid black;
-  width: fit-content;
-  margin: 10px;
-  padding: 20px;
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.form {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  align-content: center;
-  background-color: lightgoldenrodyellow; }
-  .whatsapp__pasta__caja {
-    margin: 15px 20px;
+  align-items: center; }
+  .form__pasta {
+    border: 4px solid black;
+    width: fit-content;
+    margin: 10px;
     padding: 20px;
-    border: solis black;
-    display: flex; }
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: center;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Passion One', cursive; }
+  .form__titulo {
+    font-size: 3rem;
+    font-family: 'Passion One', cursive;
+    color: #e0133c; }
+  .form__select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .form__opciones {
+    color: #1e06f5;
+    font-size: 2.3rem; }
 
 .div_subtitulo_Fettuccini {
   display: flex;
@@ -141,7 +152,7 @@ body {
     opacity: 1; } }
 
 img {
-  width: 250px;
+  width: 200px;
   margin: 10px; }
 
 .h2__pasta {
@@ -170,7 +181,7 @@ img {
   margin-top: 3rem; }
 
 img {
-  width: 250px;
+  width: 200px;
   margin: 10px; }
 
 .h2__pasta {

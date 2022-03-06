@@ -31,7 +31,7 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="header__navbarra__pastas dropdown-item text-uppercase" href="../Menu/sorrentinos.html">Sorrentinos</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="header__navbarra__pastas dropdown-item text-uppercase" href="../Menu/ñoquis.html">Ñoquis</a></li>
+                  <li><a class="header__navbarra__pastas dropdown-item text-uppercase" href="../Menu/noquis.html">Ñoquis</a></li>
                 </ul>
             </li>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,42 +50,58 @@
             </div>
           </nav>
        </header>
-    <form action="" method="" enctype="" class="form__whatsapp">    
-        <fieldset class="whatsapp__pasta">
-            <legend class="">
-                <h2>Haga su pedido</h2>
-                <Label id="supasta"> Pasta</Label>
-                <div>
-                    <input type="radio" name="su__pasta" id="Fettuccini" value="Fettuccini" required>Fettucini 
-                    <input type="radio" name="su__pasta" id="Ñoquis" value="Ñoquis" required>Ñoquis
-                    <input type="radio" name="su__pasta" id="Raviolon" value="Raviolon" required>Raviolon 
-                    <input type="radio" name="su__pasta" id="Sorrentinos" value="Sorrentinos" required>Sorrentino
-                    <input type="radio" name="su__pasta" id="Promo1" value="Promo1" required>Promo1 
-                    <input type="radio" name="su__pasta" id="Promo2" value="Promo2" required>Promo2
-    
-                </div> 
-                <div> Sabor a elegir 
-                    <input type="text" name="" id=""placeholder="De que relleno elegis"required class="whatsapp__caja">
-                </div>
-                
-                <div> Cantidad de cajas 
-                    <input type="number" name="" id=""placeholder="Elige la cantidad"required class="whatsapp__caja">
-                </div>
-    
-                <div>Nombre
-                    <input type="text" name="" id="" placeholder="Nombre" class="whatsapp__caja"> 
-                </div> 
-                <div> Numero de telefono
-                    <input type="tel" name="" id="" placeholder="Numero de telefono"required  class="whatsapp__caja">  
-                </div> 
-                <div>
-                    <input type="submit" value="Enviar" class="btn">                
-                </div> 
-            </legend>
-
-                            
-        </fieldset>
+       <form action="" method="" enctype="" class="form container-fluid">    
+         <fieldset class="form__pasta container text-center">
+          <h2 class="form__titulo container-fluid text-uppercase">Haga su pedido</h2>
+        <Label id="supasta" class="form__supasta text-uppercase container-fluid"> Pasta</Label>
+        <div class="form__select container-fluid">
+         <select class="form__selcione_supasta form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Fettuccini seleccione su cantida de cajas </option>
+            <option value="1" class="form__opciones">1 caja de Fettuccini</option>
+            <option value="2" class="form__opciones">2 caja de Fettuccini</option>
+            <option value="3" class="form__opciones">3 caja de Fettuccini</option>
+            <option value="4" class="form__opciones">4 caja de Fettuccini</option>
+          </select>
+          <select class="form__selcione_supasta form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Sorrentinos seleccione su cantida de cajas</option>
+            <option value="1" class="form__opciones">1 caja de Sorrentinos</option>
+            <option value="2" class="form__opciones">2 caja de Sorrentinos</option>
+            <option value="3" class="form__opciones">3 caja de Sorrentinos</option>
+            <option value="4" class="form__opciones">4 caja de Sorrentinos</option>
+          </select>
+          <select class="form__selcione_supasta form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Raviolon seleccione su cantida de cajas</option>
+            <option value="1" class="form__opciones">1 caja de Raviolon</option>
+            <option value="2" class="form__opciones">2 caja de Raviolon</option>
+            <option value="3" class="form__opciones">3 caja de Raviolon</option>
+            <option value="4" class="form__opciones">4 caja de Raviolon</option>
+          </select>
+          <select class="form__selcione_supasta form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Ñoquis seleccione su cantida de cajas</option>
+            <option value="1" class="form__opciones">1 caja de Ñoquis</option>
+            <option value="2" class="form__opciones">2 caja de Ñoquis</option>
+            <option value="3" class="form__opciones">3 caja de Ñoquis</option>
+            <option value="4" class="form__opciones">4 caja de Ñoquis</option>
+          </select>
+       </div> 
+       <div class="form__datos container-fluid row">
+         <div class="mb-3">
+          <label for="" class="form-label text-uppercase">Nombre</label>
+          <input type="text" class="form-control"  >
+          </div>
+        <div class="mb-3">
+          <label  class="form-label text-uppercase">Nuemero de telefono</label>
+        </div>
+        <input type="number" class="form-control" >
+      </div>
+      <div class="mb-3 form-check ">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Mi pedido esta completo </label>
+      </div>
+      <button type="submit" class="form__btn btn-primary container  ">Enviar mi pedido </button>
+    </fieldset>
     </form> 
+         
     <footer class="footer">
         <div>
          
