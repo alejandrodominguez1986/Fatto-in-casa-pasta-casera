@@ -388,26 +388,33 @@ img {
   .hero__derecho {
     display: flex; }
   .div_subtitulo_Fettuccini {
-    flex-direction: column;
-    align-items: center; }
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; }
   .subtitulo__fettuccini, .img__raviolon, .div_subtitulo_Sorrentinos {
     box-sizing: border-box;
     border: solid #000103 6px;
-    padding: 5px;
     width: fit-content; }
   .div_subtitulo_Sorrentinos {
     display: flex;
-    flex-direction: column; }
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
   .div_subtitulo_Raviolon {
-    width: 400px;
+    width: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr; }
   .div_subtitulo_noquis {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-gap: initial; }
     .div_subtitulo_noquis .img__ñoquis {
-      width: 150px; }
+      width: 250px;
+      margin-top: 10rem; }
   .parrafo__foto {
     margin-bottom: 7rem; }
   .form__whatsapp {
@@ -426,7 +433,8 @@ img {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: none;
-    justify-content: flex-end; } }
+    justify-content: flex-end;
+    margin: 10rem; } }
 
 @media screen and (max-width: 425px) {
   .header {
@@ -467,7 +475,8 @@ img {
     grid-area: img5; }
   .div_subtitulo_Raviolon {
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    width: 350px; }
   .form__whatsapp {
     display: flex;
     flex-direction: row;

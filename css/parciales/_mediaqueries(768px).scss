@@ -16,14 +16,17 @@
 
     
     .div_subtitulo_Fettuccini{
-       flex-direction: column;
-        align-items: center;           
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    
     }
 
     .subtitulo__fettuccini{
         box-sizing: border-box;
         border: solid #000103 6px;
-        padding: 5px;
         width: fit-content;
         
     }
@@ -31,11 +34,14 @@
     
     .div_subtitulo_Sorrentinos {
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .div_subtitulo_Raviolon{
-        width: 400px;
+        width: 600px;
         display: grid;
         grid-template-columns: 1fr 1fr;
                
@@ -46,8 +52,10 @@
          display: grid; 
          grid-template-rows: 1fr 1fr;
          grid-template-columns: 1fr 1fr;
+         grid-gap: initial;
          .img__ñoquis{
-             width: 150px;
+             width: 250px;
+             margin-top: 10rem;
          }
          
     }
@@ -75,6 +83,7 @@
         flex-direction: row-reverse;
         flex-wrap: nowrap;
         @include movimiento(none, flex-end);
+        margin: 10rem;
       }
 
 }
