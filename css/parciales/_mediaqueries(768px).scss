@@ -4,7 +4,7 @@
     }
 @media screen and (max-width: 768px){
    
-    
+  
  
     main .div__heros{
         display:flex;
@@ -41,37 +41,20 @@
                
      }
 
+     
      .div_subtitulo_noquis{
-        width:250px;
-        display: grid; 
-        grid-template-rows: repeat(9 auto);
-        grid-template-columns: repeat(8 auto);
-        gap: 1rem; 
-        grid-template-areas: "img1""img2""img3""img4""img5";
+         display: grid; 
+         grid-template-rows: 1fr 1fr;
+         grid-template-columns: 1fr 1fr;
+         .img__ñoquis{
+             width: 150px;
+         }
+         
     }
     
-    
-    .img1{
-        grid-area: img1;    
+    .parrafo__foto{
+        margin-bottom: 7rem;
     }
-    
-    .img2{
-        grid-area: img2;    
-    }
-    
-    .img3{
-        grid-area: img3;    
-    }
-    
-    .img4{
-        grid-area: img4;    
-    }
-    
-    .img5{
-        grid-area: img5;    
-    }
-    
-
 
     .form__whatsapp{
         display: flex;

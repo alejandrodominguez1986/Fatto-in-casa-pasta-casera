@@ -1,2 +1,55 @@
 "build-css": "node-sass --include-path scss  sass/main.sccs css/compilado.css",
 "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+
+ 
+ <h2 class="h2__pasta">Ñoquis</h2>
+
+    <div class="div__ñoquis">
+      <div class="card container " style="width: 18rem; ">
+        <img src="../img/noquis (1).jpg" class="rotate-in-center container-fluid " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card container " style="width: 18rem; ">
+        <img src="../img/noquis (1).jpg" class="rotate-in-center container-fluid " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card container " style="width: 18rem; ">
+        <img src="../img/noquis (1).jpg" class="rotate-in-center container-fluid " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card container " style="width: 18rem; ">
+        <img src="../img/noquis (1).jpg" class="rotate-in-center container-fluid " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card container " style="width: 18rem; ">
+        <img src="../img/noquis (1).jpg" class="rotate-in-center container-fluid " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card container " style="width: 18rem; ">
+        <img src="../img/noquis (1).jpg" class="rotate-in-center container-fluid " alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    .div__oquis{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-top: 5rem;
+  grid-gap: 1.5rem;
+} 
