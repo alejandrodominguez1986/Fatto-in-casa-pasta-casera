@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import"../parciales/especificaciones_";
 .ul__promos{
     display: grid;
     grid-auto-flow:column;
@@ -8,14 +10,15 @@
         font-style: oblique;
     }
     .Promo__1 {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 3rem;
+        font-family: 'Koulen', cursive;
+        font-size: 5rem;
         color: white;
-        font-style:oblique;
-        text-decoration: underline;
-        font-weight: 600;
+        font-weight: 300;
+        display: flex;
     }
-    
-    
+    .Promo__img{
+        width: 350px;
+    }
+        
   }
   

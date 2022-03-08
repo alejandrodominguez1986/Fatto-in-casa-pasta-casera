@@ -1,8 +1,13 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +42,11 @@ img {
   font-weight: bolder;
   margin: 1.5rem;
   color: black; }
+
+.parrafo__foto {
+  font-family: 'Koulen', cursive;
+  color: white;
+  font-weight: 300; }
 
 body {
   background: #536976;
@@ -191,6 +201,11 @@ img {
   margin: 1.5rem;
   color: black; }
 
+.parrafo__foto {
+  font-family: 'Koulen', cursive;
+  color: white;
+  font-weight: 300; }
+
 .div_subtitulo_Raviolon {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -226,9 +241,15 @@ img {
   margin: 1.5rem;
   color: black; }
 
+.parrafo__foto {
+  font-family: 'Koulen', cursive;
+  color: white;
+  font-weight: 300; }
+
 .div_subtitulo_Sorrentinos {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-top: 5rem; }
 
 .puff-in-center {
   -webkit-animation: puff-in-center 4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
@@ -312,6 +333,38 @@ img {
     transform: rotate(0);
     opacity: 1; } }
 
+img {
+  width: 200px;
+  margin: 10px; }
+
+.h2__pasta {
+  font-size: 4rem;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 6rem; }
+
+.btn {
+  font-size: 3.5rem;
+  border-width: 0.5rem;
+  border: black solid; }
+
+.subtitulo__fettuccini, .img__raviolon, .div_subtitulo_Sorrentinos {
+  background-color: white;
+  border: solid black 3px; }
+
+.parrafo__foto {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 1.5rem;
+  color: black; }
+
+.parrafo__foto {
+  font-family: 'Koulen', cursive;
+  color: white;
+  font-weight: 300; }
+
 .ul__promos {
   display: grid;
   grid-auto-flow: column;
@@ -321,12 +374,13 @@ img {
     color: #e9e90e;
     font-style: oblique; }
   .ul__promos .Promo__1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3rem;
+    font-family: 'Koulen', cursive;
+    font-size: 5rem;
     color: white;
-    font-style: oblique;
-    text-decoration: underline;
-    font-weight: 600; }
+    font-weight: 300;
+    display: flex; }
+  .ul__promos .Promo__img {
+    width: 350px; }
 
 @media screen and (max-width: 768px) {
   main .div__heros {
