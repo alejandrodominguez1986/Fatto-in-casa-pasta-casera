@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     &__pasta{
-        border: 4px solid black;
+        border: 6px solid black;
         width: fit-content;
         margin: 10px;
         padding: 20px;
@@ -16,12 +17,16 @@
         flex-direction:column ;
         align-items: baseline;
         align-content: center;
-        background-color: #fae1dd;
-        font-family: 'Passion One', cursive;    }
+        background-image: url(https://thumbs.dreamstime.com/b/el-cocer-manos-que-amasan-los-pasteles-crudos-de-la-pasta-en-un-cuenco-114145412.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: black;
+        font-family: 'Passion One', cursive; 
+       }
     &__titulo  {
        font-size: 3rem;
        font-family: 'Passion One', cursive;
-       color: rgb(224, 19, 60);
+       color: rgb(128, 20, 20);
     }
     &__select{
         display: grid;

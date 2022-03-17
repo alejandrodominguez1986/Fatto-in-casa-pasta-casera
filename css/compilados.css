@@ -49,12 +49,7 @@ img {
   font-weight: 300; }
 
 body {
-  background: #536976;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #292E49, #536976);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #292E49, #536976);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(https://images6.alphacoders.com/371/thumb-1920-371656.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -101,10 +96,11 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
     width: 10rem;
     height: 15rem;
-    margin: 20rem;
+    margin: 5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start; }
   .footer__red__social {
     font-size: 7rem;
     text-decoration: none;
@@ -117,7 +113,7 @@ body {
   flex-direction: column;
   align-items: center; }
   .form__pasta {
-    border: 4px solid black;
+    border: 6px solid black;
     width: fit-content;
     margin: 10px;
     padding: 20px;
@@ -126,12 +122,15 @@ body {
     flex-direction: column;
     align-items: baseline;
     align-content: center;
-    background-color: #fae1dd;
+    background-image: url(https://thumbs.dreamstime.com/b/el-cocer-manos-que-amasan-los-pasteles-crudos-de-la-pasta-en-un-cuenco-114145412.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
     font-family: 'Passion One', cursive; }
   .form__titulo {
     font-size: 3rem;
     font-family: 'Passion One', cursive;
-    color: #e0133c; }
+    color: #801414; }
   .form__select {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -6,12 +6,14 @@
 
     & div{
         font-family: 'Rubik Mono One', sans-serif;
-        width: 10rem;
-        height: 15rem;
-        margin: 20rem;
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between;
+    width: 10rem;
+    height: 15rem;
+    margin: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
     }
     
     &__red__social{
