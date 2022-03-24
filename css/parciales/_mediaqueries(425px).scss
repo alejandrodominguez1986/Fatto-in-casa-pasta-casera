@@ -1,6 +1,8 @@
 @media screen and (max-width: 425px){
+  
     .header__titulo {
         font-size: 10rem;
+        margin-right: 50px;
     }
     .navbar{
         margin: 1.5rem;
@@ -10,6 +12,8 @@
         width: max-content;
         height: max-content;
     }
+   
+       
 
 
     .div__heros{
@@ -69,6 +73,7 @@
         display: grid;
         grid-template-columns: 1fr;
         width: 350px;
+
         
        
      }

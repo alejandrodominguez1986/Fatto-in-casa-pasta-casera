@@ -80,7 +80,7 @@ body {
     display: flex; }
 
 .a__nav {
-  color: black;
+  color: white;
   font-weight: 300;
   text-decoration: none; }
 
@@ -449,7 +449,8 @@ img {
 
 @media screen and (max-width: 425px) {
   .header__titulo {
-    font-size: 10rem; }
+    font-size: 10rem;
+    margin-right: 50px; }
   .navbar {
     margin: 1.5rem;
     padding: 1.5rem; }
