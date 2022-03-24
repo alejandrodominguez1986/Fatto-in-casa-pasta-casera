@@ -4,8 +4,11 @@
     }
 @media screen and (max-width: 768px){
    
-  
- 
+  .header_navbar{
+      display: flex;
+
+  }
+
     main .div__heros{
         display:flex;
 

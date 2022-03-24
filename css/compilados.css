@@ -57,14 +57,19 @@ body {
 
 .header {
   display: flex;
-  align-items: none;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   font-family: 'Koulen', cursive;
-  margin-top: 2.5rem; }
+  margin: 2.5rem; }
   .header__titulo {
-    font-size: 9rem;
+    font-size: 15rem;
     color: rgba(243, 233, 236, 0.938);
     font-family: 'Passion One', cursive; }
+  .header__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .header__navbarra {
     display: flex;
     font-size: 3rem;
@@ -73,6 +78,11 @@ body {
     font-size: 2rem; }
   .header__separador {
     display: flex; }
+
+.a__nav {
+  color: black;
+  font-weight: 300;
+  text-decoration: none; }
 
 .div__heros {
   display: flex;
@@ -382,6 +392,8 @@ img {
     width: 350px; }
 
 @media screen and (max-width: 768px) {
+  .header_navbar {
+    display: flex; }
   main .div__heros {
     display: flex; }
   .hero__derecho {
@@ -436,12 +448,14 @@ img {
     margin: 10rem; } }
 
 @media screen and (max-width: 425px) {
-  .header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    align-items: center; }
+  .header__titulo {
+    font-size: 10rem; }
+  .navbar {
+    margin: 1.5rem;
+    padding: 1.5rem; }
+  .navbar__toggler {
+    width: max-content;
+    height: max-content; }
   .div__heros {
     display: flex;
     align-content: center;

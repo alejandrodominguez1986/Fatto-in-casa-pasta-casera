@@ -6,19 +6,24 @@
     }
 .header{
     display: flex;
-    @include movimiento(none, space-between);
+    flex-direction: column;
+    @include movimiento(center,space-between);
     font-family: 'Koulen', cursive;
-    margin-top: 2.5rem;
+    margin:2.5rem;
     &__titulo{
-        font-size: 9rem;
+        font-size: 15rem;
         color: rgba(243, 233, 236, 0.938);
         font-family: 'Passion One', cursive;
+    }
+    &__ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     &__navbarra{
         display: flex;
         font-size: 3rem;
-        padding: 0rem;
-      
+        padding: 0rem;      
     } 
     &__navbarra__pastas{
         font-size: 2rem;
@@ -26,8 +31,18 @@
     &__separador{
         display: flex;
     }
-   
+    
 }
+
+.a__nav{
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+
+
+
 
 
 

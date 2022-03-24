@@ -1,13 +1,16 @@
 @media screen and (max-width: 425px){
-    .header {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-        
-        
+    .header__titulo {
+        font-size: 10rem;
     }
+    .navbar{
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+    .navbar__toggler{
+        width: max-content;
+        height: max-content;
+    }
+
 
     .div__heros{
         display: flex;
